@@ -4,21 +4,146 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Vladislav Yashnov</title>
+	<title>Vladislav Yashnov</title>
+  <style>
+ body {
+     margin: 0;
+ }
+
+ .container {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .firstBackground {
+         background: url('https://psv4.userapi.com/c848016/u31819670/docs/d15/ddbfe8eb2895/IMG_20190126_121809_688.jpg?extra=wRh9e8V6_6CehoFkDNDU_kND3ljVslcKUWByX7tjBCQZzvmLy8JS83dV6Db2At7c9Zm0KMBnmOH2LazqKX-8Ms5-Gzs3FtdtLIO3qezR3BOkmf7NSGKuzv1ZaKmaRY-UiC-vaL3jTE2o8KkdRhKBu3evQg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    width: 100%;
+    min-height: 55vh;
+    padding-top: 45vh;
+	background-attachment: scroll;
+ }
+
+ .secondBackground {
+	background-color: #191919;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    width: 100%;
+    min-height: 55vh;
+    padding-top: 45vh;
+ }
+ 
+ .firstBackground h1 {
+    color: whitesmoke; 
+    text-align: center;
+	margin-top: 20%;
+	
+ }
+
+ .secondBackground h1 {
+    color: whitesmoke;  
+	margin-left: 10%;
+	margin-top: -10%;
+	 
+}
+
+.secondBackground p {
+    color: whitesmoke;  
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 4%;
+	font-size: 22px;
+}
+
+ main {
+   width: 100%
+}
+
+ul {
+  padding: 0;
+  list-style: none;
   
+}
+
+.twitter {
+  display: flex;
+}
+
+.twitter__bird {
+  margin-left: auto;
+  margin-right: auto
+}
+
+.twitter {
+  margin-top: -19%;
+  height: 46px;
+  align-items: center;
+  padding: 0 10px;
+}
+.twitter li {
+  cursor: pointer;
+}
+.twitter li:hover{
+  color: rgba(85,172,238 ,1);
+}
+.twitter__bird {	
+  color: white;
+  font-size: 1.3em;
+  margin: 1%;
+  padding-right: 5px;
+    padding-left: 5px;
+}
+
+.twitter li:not(:last-child):not(.twitter__bird) {
+  margin-right: 10px;
+}
+.twitter li  i:not(.fa-twitter):not(.fa-search):not(.fa-user-circle-o) {
+  margin-right: 3px;
+}
+.twitter li > button {
+  font-size: 0.8em;
+  color: #fff;
+}
+
+
+</style>
   
 </head>
 
 <body translate="no">
-
-   
     
 <header>
-  
-
 
 </header>
 
+<div class="container">
+        
+    <div class="firstBackground">
+		<ul class="twitter" role="navigation">
+			<li class="twitter__bird"><i class="fa fa-home"></i>Vladislav Yashnov</li>
+			<li class="twitter__bird"><i class="fa fa-bell-o"></i>Software</li>
+			<li class="twitter__bird"><i class="fa fa-envelope-o"></i>Ditital Content</li>
+			<li class="twitter__bird"><i class="fa fa-envelope-o"></i>Gear</li>
+			<li class="twitter__bird"><i class="fa fa-twitter"></i></li>
+			<li class="twitter__bird"><i class="fa fa-user-circle-o"></i></li>
+		</ul>
+        <h1>
+            VLADISLAV YASHNOV
+        </h1>
+	</div>
+	<div class="secondBackground">
+        <h1>
+            MY WORK</h1>
+<p>I was never the best at school or academics, I’m just a super curious guy. My channel exists to share these ideas and theories that interest me. I spend a lot of time building software and electronics, but there’s also a lot more to it. I’ve been working on a video format to document the logic, reasoning, and problems encountered during the process of learning engineering. A combination of innovation and storytelling.
+		</p>
+    </div>
+
+</div>
 
   <footer>
 
