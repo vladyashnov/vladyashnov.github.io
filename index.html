@@ -1,208 +1,294 @@
 <!DOCTYPE html>
-<html lang="en" >
-
+<html lang="en">
 <head>
+	<title>vladislav yashnov</title>
+	 <!-- add bootstrap css file -->
 
-  <meta charset="UTF-8">
-	<title>Vladislav Yashnov</title>
-  <style>
- body {
-     margin: 0;
- }
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
 
- .container {
-    display: flex;
-    flex-direction: column;
- }
-
- .firstBackground {
-         background: url('https://psv4.userapi.com/c848016/u31819670/docs/d15/ddbfe8eb2895/IMG_20190126_121809_688.jpg?extra=wRh9e8V6_6CehoFkDNDU_kND3ljVslcKUWByX7tjBCQZzvmLy8JS83dV6Db2At7c9Zm0KMBnmOH2LazqKX-8Ms5-Gzs3FtdtLIO3qezR3BOkmf7NSGKuzv1ZaKmaRY-UiC-vaL3jTE2o8KkdRhKBu3evQg') no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    width: 100%;
-    min-height: 55vh;
-    padding-top: 45vh;
-	background-attachment: scroll;
- }
-
- .secondBackground {
-	background-color: #191919;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    width: 100%;
-    min-height: 55vh;
-    padding-top: 45vh;
- }
-
- .thirdBackground {
-	background-color: #FFFFFF;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    width: 100%;
-    min-height: 55vh;
-    padding-top: 45vh;
- }
- 
- .firstBackground h1 {
-    color: whitesmoke; 
-    text-align: center;
-	margin-top: 20%;
-	
- }
-
- .secondBackground h1 {
-    color: white;  
-	margin-left: 10%;
-	margin-top: -10%;
-	 
-}
-
-.secondBackground p {
-    color: white;  
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 4%;
-	font-size: 22px;
-}
-
-.thirdBackground h1 {
-    color: black;  
-	margin-left: 10%;
-	margin-top: -10%;
-	 
-}
-
-.thirdBackground p {
-    color: black;  
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 4%;
-	font-size: 18px;
-}
-
-.thirdBackground li {
-    color: black;  
-	padding-left: 12%;
-	padding-right: 10%;
-	padding-top: 1%;
-	font-size: 18px;
-}
-
- main {
-   width: 100%
-}
-
-ul {
-  padding: 0;
-  list-style: none;
-  
-}
-
-.twitter {
-  display: flex;
-}
-
-.twitter__bird {
-  margin-left: auto;
-  margin-right: auto
-}
-
-.twitter {
-  margin-top: -19%;
-  height: 46px;
-  align-items: center;
-  padding: 0 10px;
-}
-.twitter li {
-  cursor: pointer;
-}
-.twitter li:hover{
-  color: rgba(85,172,238 ,1);
-}
-.twitter__bird {	
-  color: white;
-  font-size: 1.3em;
-  margin: 1%;
-  padding-right: 5px;
-    padding-left: 5px;
-}
-
-.twitter li:not(:last-child):not(.twitter__bird) {
-  margin-right: 10px;
-}
-.twitter li  i:not(.fa-twitter):not(.fa-search):not(.fa-user-circle-o) {
-  margin-right: 3px;
-}
-.twitter li > button {
-  font-size: 0.8em;
-  color: #fff;
-}
-
-
-</style>
-  
 </head>
+<body>
+  <!-- navbar -->
 
-<body translate="no">
-    
-<header>
+  <nav class="navbar navbar-expand-lg fixed-top ">
+	  <a class="navbar-brand" href="#">Vlad Brown</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
 
+	  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-4">
+	      
+	      <li class="nav-item">
+	        <a class="nav-link" data-value="about" href="#">Software</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="portfolio" href="#">Digital Content</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="blog" href="#">Gear</a>
+	      </li>
+	       <li class="nav-item">
+	        <a class="nav-link " data-value="contact" href="#">Contact</a>
+	      </li>
+	    </ul>
+	    
+	  </div>
+</nav>
+<!-- header -->
+<header class="header ">
+  <div class="overlay"></div>
+   <div class="container">
+   	  <div class="description ">
+  	<h1 class="text-center">
+  		V L A D I S L A V Y A S H N O V
+  		<p>Self-learning software and electrical engineering through research & development. Filming the entire process on YouTube.</p>
+		<button class="btn btn-outline-secondary btn-lg">Read more</button>
+  	</h1>
+  </div>
+   </div>
+  
 </header>
 
-<div class="container">
-        
-    <div class="firstBackground">
-		<ul class="twitter" role="navigation">
-			<li class="twitter__bird"><i class="fa fa-home"></i>Vladislav Yashnov</li>
-			<li class="twitter__bird"><i class="fa fa-bell-o"></i>Software</li>
-			<li class="twitter__bird"><i class="fa fa-envelope-o"></i>Ditital Content</li>
-			<li class="twitter__bird"><i class="fa fa-envelope-o"></i>Gear</li>
-			<li class="twitter__bird"><i class="fa fa-twitter"></i></li>
-			<li class="twitter__bird"><i class="fa fa-user-circle-o"></i></li>
-		</ul>
-        <h1>
-            VLADISLAV YASHNOV
-        </h1>
+<!-- about section -->
+<div class="about" id="about" class="container-fluid">
+	<div class="container-fluid">
+		<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 desc">
+			<h1>MY WORK</h1>
+				<p>
+						I was never the best at school or academics, I’m just a super curious guy. My channel exists to share these ideas and theories that interest me. I spend a lot of time building software and electronics, but there’s also a lot more to it. I’ve been working on a video format to document the logic, reasoning, and problems encountered during the process of learning engineering. A combination of innovation and storytelling.
+				</p>
+				<div class="container">
+					<div class="row">
+					<div class="col"><h1>Software Development</h1>
+						<ul>
+							<li>Java/C# Automation. CPU bound business logic</li>
+							<li>Low level/embedded IoT programming</li>
+							<li>Cloud computing, microservices, APIs, full stack web apps</li>
+						</ul>
+					</div>
+					<div class="col"><h1>Electronics</h1>
+						<ul>
+							<li>LED Music visualizer</li>
+							<li>Robotics, batteries, embedded systems</li>
+							<li>Trying to not blow myself up by teaching myself EE is quite exciting</li>
+						</ul>
+					</div>
+					<div class="col"><h1>Video Production</h1>
+						<ul>
+							<li>Developer Vlog: Document the learning process of engineering</li>
+							<li>Weekly videos on YouTube. Building a community of technology enthusiasts.</li>
+							<li>High quality visuals and meaningful stories</li>
+						</ul>
+					</div>
+					<div class="col"><h1>Community</h1>		
+						<ul>
+							<li>Open source projects on Github</li>
+							<li>Behind the scenes on Patreon</li>
+							<li>Discord</li>
+						</ul>
+					</div>
+					</div>
+					</div>
+			</div>
+			
+		</div>
+		
 	</div>
-	<div class="secondBackground">
-        <h1>
-            MY WORK</h1>
-<p>I was never the best at school or academics, I’m just a super curious guy. My channel exists to share these ideas and theories that interest me. I spend a lot of time building software and electronics, but there’s also a lot more to it. I’ve been working on a video format to document the logic, reasoning, and problems encountered during the process of learning engineering. A combination of innovation and storytelling.
-		</p>
-    </div>
-
-</div>
-<div class="thirdBackground">
-	<h1>Future Ventures (Teach myself in 2019)</h1>
-<ul>
-	<li>Scalable distributed systems (infrastructure, networks, microservices)</li>
-	<li>Machine Learning/AI</li>
-	<li>Image/Video processing</li>
-	<li>Security</li>
-	<li>File servers / personal datacenter / NAS</li>
-	<li>Blockchain</li>
-	<li>Embedded Systems (more IoT)</li>
-	<li>Electrical engineering</li>
-	<li>Toasting bread instantly</li>
-</ul>
-	<p>I have many interests besides technology that I may share in a similar approach. You can read more about my technology stack on the software page.
-
-</p>
 </div>
 
+<!-- portfolio -->
+<div class="portfolio" id="portfolio">
+	<div class="container">
+			<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 desc">
+			<h1>Popular Projects</h1>
+			<table class="table">
+				<thead>
+				  <tr>
+					<th scope="col">Title</th>
+					<th scope="col">Description</th>
+					<th scope="col">Language</th>
+					<th scope="col">Stars</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<td scope="row">Timelapse Auto Ramp Photoshop Plugin</td>
+					<td>Analyze RAW images from a timelapse, and auto - ramp the exposure for manual changes of camera settings. The best way to achieve amazing results in difficult lighting.</td>
+					<td>Java</td>
+					<td>217</td>
+				  </tr>
+				  <tr>
+					<td scope="row">LED Music Visualizer</td>
+					<td>Create a realtime LED audio waveform based on the pitch and volume with Arduino	</td>
+					<td>C++</td>
+					<td>169</td>
+				  </tr>
+				  <tr>
+					<td scope="row">A Pathfinding Visualization</td>
+					<td>First attempt at an efficient pathfinding algorithm in Java. I made this visualization to show the beauty of pathfinding. You can modify all major features of my algorithm through the graphics interface.	</td>
+					<td>Java</td>
+					<td>127</td>
+				  </tr>
+				</tbody>
+			  </table>
+			  <div class="container">
+				<div class="row">
+				<div class="col"><h1>Future Ventures (Teach myself in 2019)</h1>
+					<ul>
+						<li>Java/C# Automation. CPU bound business logic</li>
+						<li>Low level/embedded IoT programming</li>
+						<li>Cloud computing, microservices, APIs, full stack web apps</li>
+						<li>Java/C# Automation. CPU bound business logic</li>
+						<li>Low level/embedded IoT programming</li>
+						<li>Cloud computing, microservices, APIs, full stack web apps</li>
+						<li>Java/C# Automation. CPU bound business logic</li>
+						<li>Low level/embedded IoT programming</li>
+						<li>Cloud computing, microservices, APIs, full stack web apps</li>
+					</ul>
+					<p>I have many interests besides technology that I may share in a similar approach. You can read more about my technology stack on the software page.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 </div>
 
-  <footer>
+<!-- Posts section 
+	<div class="blog" id="blog">
+	<div class="container">
+	<h1 class="text-center">Blog</h1>
+		<div class="row">
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/posts/polit.jpg" class="img-fluid">
+					</div>
+					
+					<div class="card-body">
+					<h4 class="card-title">Post Title</h4>
+						<p class="card-text">
+							
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="" class="card-link">Read more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/posts/images.jpg" class="img-fluid">
+					</div>
+					
+					<div class="card-body">
+					   <h4 class="card-title">Post Title</h4>
+						<p class="card-text">
+							
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="" class="card-link">Read more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/posts/imag2.jpg" class="img-fluid">
+					</div>
+					
+					<div class="card-body">
+					<h4 class="card-title">Post Title</h4>
+						<p class="card-text">
+							
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="" class="card-link">Read more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+-->
+<!-- Team section -->
+<div class="team" id="team">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+					
+				<img src="images/team-2.jpg" class="img-fluid" alt="team">
+				<div class="des">
+				 	Sara
+				 </div>
+				<span class="text-muted">Manager</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/team-3.jpg" class="img-fluid" alt="team">
+				<div class="des">
+				 	 Chris
+				 </div>
+				<span class="text-muted">S.enginner</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/team-2.jpg" class="img-fluid" alt="team">
+				<div class="des">
+				 	Layla 
+				 </div>
+				<span class="text-muted">Front End Developer</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/team-3.jpg" class="img-fluid" alt="team">
+				 <div class="des">
+				 	J.Jirard
+				 </div>
+				<span class="text-muted">Team Manger</span>
+			</div>
+		</div>
+	</div>
+</div>
 
-   
-  </footer>
+<!-- Contact form 
+<div class="contact-form" id="contact">
+	<div class="container">
+		<form>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+				  <h1>Get in Touch</h1>	
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 right">
+				   <div class="form-group">
+				   	 <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+				   </div>
+				   <div class="form-group">
+				   	 <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+				   </div>
+				   <div class="form-group">
+				   	 <textarea class="form-control form-control-lg">
+				   	 	
+				   	 </textarea>
+				   </div>
+				   <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+				</div>
+			</div>
+		</form> 
+	</div>
+</div>
+-->
+
+<!-- add Javasscript file from js file -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src='js/main.js'></script>
 
 </body>
-
 </html>
