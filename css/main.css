@@ -38,23 +38,25 @@ html,h1,h2,h3,h4,h5,h6,a{
 /*header style*/
 .header{
 	position: relative;
-	background-image: url('../images/headerback.jpg');
+	background-image: url('https://pp.userapi.com/c845021/v845021008/1aa40d/hEsfEUypkzo.jpg');
 
 	background-size: cover;
 	background-position: center;
 }
 
 .description{
-    position: absolute;
-    top: 40%;
-    margin: auto;
+    position: relative;
+    padding: 25% 0 0 0;
+		margin-left: auto;
+		margin-right: auto;
 	}
 .description h1{
 	text-align: left;
-	padding: 0% 15% 0% 15%;
+	padding: 0% 0% 0% 15%;
 	color:rgb(255, 255, 255) ;
 	font-family: 'Poppins', sans-serif;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 .description p{
 	color:rgb(255, 255, 255);
@@ -62,14 +64,17 @@ html,h1,h2,h3,h4,h5,h6,a{
 	width: 100%;
 	line-height: 1.5;
 	text-align: left;
-	margin: auto;
-	padding: 0 25% 0 15%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 15% 0 15%;
 	font-family: 'Poppins', sans-serif;
 }
 .description button{
 	border:1px  solid rgb(255, 255, 255);
 	background:rgb(197, 184, 173);
 	color:rgb(0, 0, 0);
+	margin-left: auto;
+	margin-right: auto;
 }
 .about{
 	position: relative;	
@@ -183,14 +188,22 @@ html,h1,h2,h3,h4,h5,h6,a{
 	margin: auto;
 }
 .team h1{
-	color:#F97300;
-	
+	color: white;
+	font-size: 18px;
 }
 .team .item{
-	padding: 3% 0 0 0;
+	padding: 5% 0 3% 0;
 	position: relative;
 	overflow: hidden;	
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
+
+.team img{
+	padding: 0 0 10% 0;
+}
+
 .team .des{
 	background: #F97300;
 	color: #fff;
