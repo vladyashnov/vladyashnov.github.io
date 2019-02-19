@@ -13,7 +13,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	font-family: "Raleway";
 }
 .navbar{
-	background:rgb(0, 0, 0);
+	background:#191919;
 }
 .nav-link , .navbar-brand{
 	color: #f4f4f4;
@@ -56,6 +56,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	font-family: 'Poppins', sans-serif;
 	margin-left: auto;
 	margin-right: auto;
+	letter-spacing: 7.7px;
 }
 .description p{
 	color:rgb(255, 255, 255);
@@ -67,6 +68,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	margin-right: auto;
 	padding: 0 15% 0 15%;
 	font-family: 'Poppins', sans-serif;
+	letter-spacing: 0.077px;
 }
 .description button{
 	border:1px  solid rgb(255, 255, 255);
