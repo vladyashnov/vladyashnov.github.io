@@ -71,6 +71,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	margin-left: -30%;
 	margin-right: auto;
 	padding: 0 0% 0 0%;
+	white-space: nowrap;
 	font-family: 'PT Sans Narrow', sans-serif;
 	letter-spacing: 0.077px;
 }
