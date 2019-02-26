@@ -42,7 +42,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 /*header style*/
 .header{
 	position: relative;
-	background-image: url('https://pp.userapi.com/c845021/v845021008/1aa40d/hEsfEUypkzo.jpg');
+	background-image: url('images/background.jpg');
 	background-size: cover;
 	background-position: center;
 }
