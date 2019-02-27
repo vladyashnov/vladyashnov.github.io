@@ -42,7 +42,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 /*header style*/
 .header{
 	position: relative;
-	background-image: url(master/images/background.jpg);
+	background-image: url('https://raw.githubusercontent.com/vladyashnov/vladyashnov.github.io/master/images/background.jpg');
 	background-size: cover;
 	background-position: center;
 }
