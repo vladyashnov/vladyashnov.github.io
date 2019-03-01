@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 body{
 	padding: 0;
@@ -338,8 +340,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 
 
 
-@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
 
 .jumbotron h1 {
 	color: #353535;
