@@ -27,10 +27,3 @@ function changeurl(){eval(self.location="https://epicblog.net/index.php");}
 window.setTimeout("changeurl();",3000);
 </script>
 
-<form action="send.php" method="post">
-
-    Ваше имя <input type="text" name="first_name"><br>
-    Email: <input type="text" name="email" required placeholder="Обязательное поле"><br>
-    Сообщение:<br><textarea rows="5" name="message" cols="30"></textarea><br>
-    <input type="submit" name="submit" value="Submit">
-    </form>
