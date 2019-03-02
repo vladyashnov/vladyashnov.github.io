@@ -1,0 +1,81 @@
+body {
+    margin: 2em;
+    background: #f1f1f1;
+  }
+  aside {
+      background: #bebebe; /* same color as selected state on site menu */
+      padding: 0.3em 1em;
+      border-radius: 3px;
+      color: #fff;
+      margin-bottom: 2em;
+      max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+  }
+  textarea {
+    width: 100%;
+  }
+  .content-head {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 2em 0 1em;
+  }
+  .is-center {
+    text-align: center;
+  }
+  .button-success {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(28, 184, 65); /* this is a green */
+  }
+  .button-xlarge {
+    font-size: 125%;
+  }
+  button {
+    float: right;
+  }
+  #name, #email {
+    width: 100%;
+  }
+
+  form {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+  }
+  form input, form textarea {
+    border: 0;
+    outline: 0;
+    padding: 1em;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'Merriweather', sans-serif;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    resize: none;
+  }
+  form input:focus, form textarea:focus {
+    -moz-box-shadow: 0 0px 2px rgb(190,49,64) !important;
+    -webkit-box-shadow: 0 0px 2px rgb(190,49,64) !important;
+    box-shadow: 0 0px 2px rgb(190,49,64) !important;
+  }
+
+  form #input-submit {
+    color: white;
+    background: rgb(190,49,64);
+    cursor: pointer;
+  }
+  form #input-submit:hover {
+    -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+    -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+    box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  }
+
+  
