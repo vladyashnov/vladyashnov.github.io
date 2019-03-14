@@ -15,17 +15,19 @@ html,h1,h2,h3,h4,h5,h6,a{
 	font-family: 'PT Sans Narrow', sans-serif;
 }
 .navbar{
-
+background: transparent;
 	color: #f4f4f4;
 }
 
 
 .nav-link , .navbar-brand{
+	background: transparent;
 	color: #f4f4f4;
 	cursor: pointer;
 	font-family: 'PT Sans Narrow', sans-serif;
 }
 .nav-link{
+	background: transparent;
 	font-size: 16px;
 	margin-right: 1em !important;
 }
@@ -35,6 +37,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 
 }
 .navbar-collapse{
+	background: transparent;
  justify-content: flex-end;
 }
 .navbar-toggler{
