@@ -67,6 +67,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 .collectionPad img {
   border-radius: 200px;
   max-width: 65%;
+	border: 7px solid rgb(190,49,64);
 }
 
 .collectionPad22 {
