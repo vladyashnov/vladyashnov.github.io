@@ -309,7 +309,6 @@ html,h1,h2,h3,h4,h5,h6,a{
   transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
 	margin-top: -80px;
 	margin-left: -80px;
-	border-radius: 200px;
 	border: 7px solid rgb(190,49,64);
 }
 
