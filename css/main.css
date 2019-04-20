@@ -67,6 +67,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	margin-right: auto;
 	letter-spacing: 3px;
 	font-size: 3.5vw;
+	word-wrap: normal;
 }
 .description p{
 	color:rgb(255, 255, 255);
