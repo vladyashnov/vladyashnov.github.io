@@ -8,6 +8,10 @@ body{
 	background:#f4f4f4;
 	height: 100%;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 html{
 	height: 100%;
 }
@@ -50,8 +54,25 @@ html,h1,h2,h3,h4,h5,h6,a{
 	background-image: url('https://raw.githubusercontent.com/vladyashnov/vladyashnov.github.io/master/images/background.jpg');
 	background-size: cover;
 	background-position: center;
-	height: auto;
-  	max-width: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.collectionPad2 {
+	color:rgb(255, 255, 255) ;
+	font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 3.5vw;
+}
+
+.collectionPad img {
+  border-radius: 200px;
+  max-width: 65%;
+}
+
+.collectionPad22 {
+	color:rgb(255, 255, 255);
+  font-size: 2vw;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .description{
@@ -60,28 +81,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 		margin-left: auto;
 		margin-right: auto;
 	}
-.description h1{
-	text-align: left;
-	padding: 0% 0% 0% 0%;
-	color:rgb(255, 255, 255) ;
-	font-family: 'PT Sans Narrow', sans-serif;
-	margin-left: -30%;
-	margin-right: auto;
-	letter-spacing: 3px;
-	font-size: 3.5vw;
-	word-wrap: normal;
-}
-.description p{
-	color:rgb(255, 255, 255);
-	font-size: 2vw;
-	width: 100%;
-	line-height: 1.5;
-	margin-left: -30%;
-	margin-right: auto;
-	padding: 0 0% 0 0%;
-	font-family: 'PT Sans Narrow', sans-serif;
-	letter-spacing: 0.077px;
-}
+
 .description button{
 	border:1px  solid rgb(255, 255, 255);
 	background:rgb(197, 184, 173);
@@ -596,7 +596,3 @@ section:not(:last-child):after {
 .btn-fill-horz.btn-red:hover {
   border-color: #e74c3c;
 }
-
-
-
-
