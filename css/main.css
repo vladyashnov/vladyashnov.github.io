@@ -76,6 +76,102 @@ html,h1,h2,h3,h4,h5,h6,a{
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
+@media (max-width: 575px){
+  .collectionPad img {
+    border-radius: 200px;
+    max-width: 55%;
+    text-align: center;
+    border: 7px solid rgb(190,49,64);
+  }
+
+  .collectionPad2 {
+    color:rgb(255, 255, 255) ;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 5vw;
+    margin-top: 20px;
+  }
+  
+
+  .collectionPad22 {color:rgb(255, 255, 225);
+  font-size: 4vw;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: left;
+  }
+
+  .col h1{
+  padding-bottom: 2px;
+  }
+}
+
+@media (max-width: 767px) { 
+  .collectionPad img {
+    border-radius: 200px;
+    max-width: 85%;
+    text-align: center;
+    border: 7px solid rgb(190,49,64);
+  }
+
+  .collectionPad2 {
+    color:rgb(255, 255, 255) ;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 5vw;
+    margin-top: 20px;
+  }
+  
+
+  .collectionPad22 {color:rgb(255, 255, 225);
+  font-size: 2.8vw;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: left;
+  }
+}
+
+@media (max-width: 991px) {
+  .collectionPad img {
+    border-radius: 200px;
+    max-width: 85%;
+    text-align: center;
+    border: 7px solid rgb(190,49,64);
+  }
+
+  .collectionPad2 {
+    color:rgb(255, 255, 255) ;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 5vw;
+    margin-top: 20px;
+  }
+  
+
+  .collectionPad22 {color:rgb(255, 255, 225);
+  font-size: 2.8vw;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: left;
+  }
+}
+
+@media (max-width: 1199px) {
+  .collectionPad img {
+    border-radius: 200px;
+    max-width: 75%;
+    text-align: center;
+    border: 7px solid rgb(190,49,64);
+  }
+
+  .collectionPad2 {
+    color:rgb(255, 255, 255) ;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 5vw;
+    margin-top: 20px;
+  }
+  
+
+  .collectionPad22 {color:rgb(255, 255, 225);
+  font-size: 2.8vw;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: left;
+  }
+}
+
 .description{
     position: relative;
     padding: 20% 0 0 0;
